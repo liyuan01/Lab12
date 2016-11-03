@@ -134,7 +134,7 @@ public class ListItemsActivity extends AppCompatActivity {
         super.onStop();
         Log.i(ACTIVITY_NAME,"In onStop()");
     }
-    public void onDestory(){
+    public void onDestroy(){
         super.onDestroy();
         Log.i(ACTIVITY_NAME,"In onDestory()");
     }
